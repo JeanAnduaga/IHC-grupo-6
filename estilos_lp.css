@@ -1,0 +1,98 @@
+nav .iconp{
+    content: url('https://api.iconify.design/ph/t-shirt.svg?color=white');
+    width: 39.5175px;
+    height: 30px;
+}
+
+
+
+#titulo{
+    color: white;
+    font-size: 63.75px;
+    font-weight: bold;
+}
+
+#eslogan{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.subtitulo{
+    background-color: #034872;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.texto_simple{
+    background-color: #034872;
+    text-align: center;
+    font-size: 15px;
+    color: white
+}
+
+body{
+    background-image: url("background.png");
+    background-repeat: round;
+    background-size: cover;
+    width: 1080px;
+    height: 2304px;
+}
+
+.boton{
+    padding: 10px;
+    color: white;
+    background-color: #D8BBA9;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+header .boton{
+    color: #02385A;
+    font-weight: bold;
+}
+
+.menu{
+    color:white;
+    font-size: 15px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.icono_grande{
+    content: url('https://api.iconify.design/ph/t-shirt.svg?color=white');
+    width: 83.9775px;
+    height: 63.75px;
+    
+}
+
+footer .iconf{
+    content: url('https://api.iconify.design/akar-icons/facebook-fill.svg?color=black');
+    height: 24px;
+    width: 24px;
+    padding-right: 40px;
+}
+
+footer .iconi{
+    content: url('https://api.iconify.design/akar-icons/instagram-fill.svg');
+    height: 24px;
+    width: 24px;
+    padding-right: 40px;
+}
+
+footer .icony{
+    content: url('https://api.iconify.design/akar-icons/youtube-fill.svg');
+    height: 24px;
+    width: 24px;
+}
+
+.texto_footer{
+    background-color: #034872;
+    font-size: 15px;
+    color: white
+}
+
+footer{
+    background-color: #034872;
+}
