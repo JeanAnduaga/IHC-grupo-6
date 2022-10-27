@@ -1,1 +1,0 @@
-# IHC-grupo-6
