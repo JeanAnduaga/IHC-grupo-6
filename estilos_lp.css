@@ -1,55 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 nav .iconp{
     content: url('https://api.iconify.design/ph/t-shirt.svg?color=white');
-    width: 39.5175px;
-    height: 30px;
+    width: 70.253333333px;
+    height: 53.3333px;
 }
-
-
+nav{
+    background-color: #034872;
+}
 
 #titulo{
     color: white;
-    font-size: 63.75px;
+    font-size: 113.33333px;
     font-weight: bold;
     margin-top: 0%;
     margin-bottom: 0%;
+    font-family: "Roboto", sans-serif;
 }
 
 #eslogan{
-    font-size: 15px;
+    font-size: 26.6667px;
     color: white;
-    font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 90px;
 }
 
 .subtitulo{
     background-color: #034872;
     text-align: center;
-    font-size: 40px;
+    font-size: 69.3333px;
     color: white;
+    font-family: "Roboto", sans-serif;
 }
 
 .texto_simple{
-    background-color: #034872;
+    -background-color: #034872;
+    width: 656px;
+    height: 202.6667px;
     text-align: center;
-    font-size: 15px;
+    font-size: 26.6667px;
     color: white;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+header{
+    margin-top: 80px;
+}
+
+
+
+#caja1{
+    position: relative;
+    top: 455px;
+    left: -415px;
+    width: 2100px;
+    height: 514.6667px;
+    background-color:#034872; 
+    border-width: 0px;
+    border-radius: 100px;
+    border-style: ridge;
+    z-index: -1;
+}
+
+#caja2{
+    position: relative;
+    top: 780px;
+    right: -435px;
+    width: 2100px;
+    height: 514.6667px;
+    background-color:#034872; 
+    border-width: 0px;
+    border-radius: 100px;
+    border-style: ridge;
+    z-index: -1;
+}
+
+#caja3{
+    position: relative;
+    top: 1100px;
+    left: -415px;
+    width: 2100px;
+    height: 514.6667px;
+    background-color:#034872; 
+    border-width: 0px;
+    border-radius: 100px;
+    border-style: ridge;
+    z-index: -1;
+}
+
+#caja_perfil{
+    position: relative;
+    top: -140px;
+}
+
+#caja_buscar{
+    position: relative;
+    top: -150px;
+}
+
+#caja_diseños{
+    position: relative;
+    top: -125px;
 }
 
 body{
-    background-image: url("background.png");
-    background-repeat: round;
-    background-size: cover;
-    width: 1080px;
-    height: 2304px;
+    background-image: url("background2.png");
+    background-repeat: no-repeat;
+    width: 99%;
+    height: 100%;
+    overflow-x: hidden;
 }
 
 .boton{
     padding: 10px;
     color: white;
     background-color: #D8BBA9;
-    font-family: 'Helvetica', sans-serif;
+    font-family: "Roboto", sans-serif;
     border-radius: 50px;
-    font-size: 15px;
+    font-size: 29.3333px;
     padding-left: 60px;
     padding-right: 60px;
 }
@@ -58,55 +129,66 @@ body{
 header .boton{
     color: #02385A;
     font-weight: bold;
-    
+    font-family: "Roboto", sans-serif;
+    font-size: 37.33333px;
 }
 
-header .mock_img{
-    padding-left: 220px;
-}
  
 .downloadbttn{
     padding-top: 30px ;
 }
 .menu{
     color:white;
-    font-size: 15px;
-    font-family: 'Helvetica', sans-serif;
+    font-size: 29.3333px;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
 }
 
 .icono_grande{
     content: url('https://api.iconify.design/ph/t-shirt.svg?color=white');
-    width: 83.9775px;
-    height: 63.75px;
+    width: 149.2933px;
+    height: 133.3333px;
     
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #034872;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 30px;
+    padding-top: 25px;
 }
 
 footer .iconf{
     content: url('https://api.iconify.design/akar-icons/facebook-fill.svg?color=black');
-    height: 24px;
-    width: 24px;
-    padding-right: 40px;
+    height: 40px;
+    width: 40px;
+    margin-right: 120px;
 }
 
 footer .iconi{
     content: url('https://api.iconify.design/akar-icons/instagram-fill.svg');
-    height: 24px;
-    width: 24px;
-    padding-right: 40px;
+    height: 40px;
+    width: 40px;
+    margin-right: 120px;
 }
 
 footer .icony{
     content: url('https://api.iconify.design/akar-icons/youtube-fill.svg');
-    height: 24px;
-    width: 24px;
+    height: 40px;
+    width: 40px;
+    margin-right: 0%;
+    text-align: left;
 }
 
 .texto_footer{
     background-color: #034872;
-    font-size: 15px;
+    font-size: 29px;
     color: white
 }
 
-footer{
-    background-color: #034872;
+footer li{
+    display: block;
+    margin-bottom: 20px;
 }
+
