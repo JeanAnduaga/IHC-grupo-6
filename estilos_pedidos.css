@@ -1,0 +1,28 @@
+h1{
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+}
+
+h4{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+header{
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.subtituloPedidos{
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 500px;
+}
+
+.alignDropdown{
+    margin-left: 20px;
+}
+
+.colorWhite{
+    color: white;
+}
