@@ -1,0 +1,121 @@
+h1{
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+}
+
+.subtituloDiseño{
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 400px;
+}
+
+.botond{
+    padding: 10px;
+    color: white;
+    background-color: #D8BBA9;
+    font-family: "Roboto", sans-serif;
+    border-radius: 35px;
+    font-size: 29.3333px;
+    padding-left: 30px;
+    padding-right: 60px;
+    margin: 10px;
+}
+
+#lienzo{
+    background-color: lightgray;
+    height: 900px;
+    width: 900px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 35px;
+    align-content: center;
+}
+
+#iconPlant{
+    content: url('https://api.iconify.design/carbon/template.svg?color=white');
+    height: 40px;
+    width: 40px;
+    vertical-align:text-bottom;
+    margin-right: 10px;
+}
+
+#iconFig{
+    content: url('https://api.iconify.design/material-symbols/pentagon-outline-rounded.svg?color=white');
+    height: 40px;
+    width: 40px;
+    vertical-align:text-bottom;
+    margin-right: 10px;
+}
+
+#iconHerr{
+    content: url('https://api.iconify.design/bi/brush.svg?color=white');
+    height: 35px;
+    width: 35px;
+    vertical-align:text-bottom;
+    margin-right: 10px;
+}
+
+#iconText{
+    content: url('https://api.iconify.design/carbon/letter-aa-large.svg?color=white');
+    height: 40px;
+    width: 40px;
+    vertical-align:text-bottom;
+    margin-right: 10px;
+}
+
+#iconImg{
+    content: url('https://api.iconify.design/bi/images.svg?color=white');
+    height: 40px;
+    width: 40px;
+    vertical-align:text-bottom;
+    margin-right: 10px;
+}
+
+#iconImgD{
+    content: url('https://api.iconify.design/iconoir/media-image-folder.svg?color=white');
+    height: 40px;
+    width: 40px;
+    vertical-align:text-bottom;
+    margin-right: 10px;
+}
+
+.botonsig{
+    padding: 10px;
+    color: white;
+    background-color: #D8BBA9;
+    font-family: "Roboto", sans-serif;
+    border-radius: 35px;
+    font-size: 29.3333px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 18px;
+
+}
+
+.botonropa{
+    width: 300px;
+    height: 300px;
+    background-color: #D8BBA9;
+    border-radius: 35px;
+    font-size: 29.3333px;
+    margin-left: 100px;
+}
+
+#iconzap{
+    content: url('https://api.iconify.design/mdi/shoe-sneaker.svg?color=white');
+    height: 250px;
+    padding-top: 25px;
+    
+}
+
+#iconcasaca{
+    content: url('https://api.iconify.design/icon-park-outline/men-jacket.svg?color=white');
+    height: 250px;
+    padding-top: 25px;
+}
+
+#iconpolo{
+    content: url('https://api.iconify.design/majesticons/t-shirt-line.svg?color=white');
+    height: 250px;
+    padding-top: 25px;
+}
